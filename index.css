@@ -1,0 +1,120 @@
+
+
+.header{    
+    display: flex;   
+}
+
+.switch{
+    padding-left: 60rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px;
+}
+
+#song-cont{
+       height: 500px;
+      background-color: #0D7C66;
+      color: white;
+      text-overflow: initial;
+      border-radius: 15px;
+      box-shadow: 2px;
+}
+
+#card-cont {
+  padding: 20px;
+}
+
+.card {
+  width: 230px;
+  height: 460px;
+  background-color: #FE7743 ;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.song-name {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ .song-item {
+    padding: 5px;
+    margin: 10px 90px;
+    background-color: #F4CE14;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-weight: bold;
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .song-item:hover {
+    background-color: #FF7F3E;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+.artist-name {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+#genreFilter {
+  padding: 4px 8px;
+  font-size: 14px;
+  margin: 2px;
+}
+
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+#allsong{
+    
+}
+.control-btn {
+  padding: 8px 12px;
+  font-size: 18px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.control-btn:hover {
+  background-color: #ddd;
+}
+
+.active-playlist {
+    background-color: #f0c674;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+#playlist-cont{
+   background-color: #F7AD45;
+   padding-left: 7%;
+   padding-top: 4%;
+}
